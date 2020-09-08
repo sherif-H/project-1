@@ -1,0 +1,465 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+*
+{
+     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgba(0.0.0.0,2) ;
+
+}
+
+/*nav-bar*/
+.container
+{
+    
+    width: 80%;
+    margin: auto;
+}
+.nav-bar
+{
+   
+    background: none;;
+    height: auto;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    color: white;
+
+    
+    
+    
+}
+.logo
+{
+    width:40%;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
+
+}
+.ull
+{
+    width: 30%;
+    float: left;  
+    text-align: center;
+    padding: 10px;
+    
+}
+.nav-bar img
+{
+    height: 50px;
+}
+
+span 
+{
+    color: darkorange;
+    
+
+}
+.clear
+{
+clear: both;
+}
+
+.nav-bar ul
+{
+
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+    padding: 10px ;
+    width: 50%;
+}
+
+.nav-bar ul li
+{
+    float: left;
+
+    margin: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 20px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    opacity: .8;
+        
+         
+}
+.nav-bar ul li ul li
+{
+    text-align: left;
+    display: none;
+}
+.nav-bar ul li:hover ul li
+{
+   display:block;
+    text-align: left;
+}
+
+h2
+{
+    
+    padding-bottom: px;
+    padding: 10px;
+    
+}
+.nav-bar ul li a {
+ text-decoration: none;
+    color:coral;
+    padding: 30px;
+    width: 50px;
+    
+}
+.nav-a:after
+{
+    content: "";
+    display: block;
+    background: aqua;
+    width: 0;
+    height: 3px;
+    transition:width 0.5s;
+}
+.nav-a:hover:after 
+{
+    content: "";
+    display: block;
+    background: aquas;
+    width: 100%;
+    height: 3px;
+    transition: width 0.5;
+}
+
+
+       /*nav-bar-end*/
+      /*1st banner*/
+
+
+
+
+
+.home
+{
+    background:url(background1.webp);
+    background-size: cover;
+    height: 100vh;
+    position: relative
+        
+}
+.over-lay
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.home-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 900px;
+        
+}
+.title
+{
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+    width: inherit;   
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+p
+{
+    color: wheat;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    width: inherit;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+    margin: 5px;
+    width: 160px;
+    cursor: pointer;
+    font-size: 12px;
+    height: 30px;
+}
+.btn-2
+{
+    background: blue;
+    color: white;
+}
+
+
+.home button:hover
+{
+    opacity: 0.8;   
+    transition: opacity 0.5s;
+    color:darkred;
+}
+
+
+
+
+
+
+        /*1st banner ends*/
+
+        /* sec-header*/
+
+
+.sec-header
+{
+    margin-top: 50px;
+    text-align: center;
+    height: 150px;
+    
+}
+
+.line
+{
+    width: 50px;
+    height: 2px;
+    background: aqua;
+    margin: auto;
+    display: block;
+}
+
+        /* sec-header ends*/
+
+
+        /* about*/
+
+
+
+.about
+{
+    width: inherit;
+    height: 300px;
+    text-align:center;
+        
+}
+ .about-p
+{
+    color:cadetblue;
+    width: 100px
+        text-align:center;
+    text-transform: ;
+
+}
+
+.about-1
+{
+        width: 30%;
+    padding:10px;
+    height: 250px;
+    text-align:center;
+    overflow: hidden;
+        float: left;
+    margin: 10px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    text-transform: capitalize;
+
+}
+.fa
+{
+    color: aqua;
+}
+.ltr
+{
+    
+    
+
+}
+.about-1:after
+{
+    content: "";
+    background: #333;
+     position: absolute;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+}
+
+.about-1:hover:after
+{
+     background: #333;
+     position: absolute;
+    height: 100%;
+
+}
+.about-1:hover .about-h2 
+{
+    color: white;
+    transition: 0.5s;
+}
+.about-1:hover .about-links
+<{
+    color: white;
+}
+.portfolio
+{
+    background: e8e8e8;
+    height: 300px;
+    
+}
+.sec-header-portfolio
+{
+    margin-top: 50px;
+    text-align: center;
+    height: 150px;
+    
+}
+
+.portfolio-1
+{
+       width: 30%;
+    padding:10px;
+    height: 250px;
+    text-align:center;
+    overflow: hidden;
+        float: left;
+    margin: 10px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    text-transform: capitalize;
+        transition: 0.5s;
+
+    
+}
+.portfolio-1:hover .portfolio-a
+{
+    color: white;
+        transition: 0.5s;
+
+}
+.portfolio-1:after
+{
+    content: "";
+    position: absolute;
+    width: 0%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    z-index: -1;
+    transition: 0.5s;
+    
+
+        
+}
+.portfolio-1:hover:after
+{
+    position: absolute;
+    width: 100%;
+    background:#333;
+        
+}
+
+.portfolio-1:hover .portfolio-h
+{
+    color: white;
+        transition: 0.5s;
+
+}
+/* work*/
+
+.work
+{
+    position: ;
+
+}
+.work-1
+{
+    position: relative;
+    overflow: hidden;
+    width: 30%;
+   float: left;
+    margin: 10px;
+    padding: 20px;
+
+    
+}
+.work img
+{
+    width: 100%
+}
+.work-2
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+}
+
+.work-3
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 70px;
+    
+
+}
+.work-3 h2
+{
+    color: aliceblue;
+}
+.work-3 a
+{
+    padding-left: 25px;
+    margin: ;
+}
+
+.work-3 .work-s
+{
+    font-size: 30px;
+}
+
+.work-1:hover .work-2
+{
+    opacity: 1
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
